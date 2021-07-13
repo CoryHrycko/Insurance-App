@@ -18026,8 +18026,7 @@ var API_REGISTER = 'register';
 var API_LOGIN = 'login';
 var API_LOGOUT = 'logout'; // Http
 
-var BASE_API_URL = ''; //'http://localhost/api/authorized';
-// Quotes
+var BASE_API_URL = 'http://localhost/api/authorized'; // Quotes
 
 var API_QUOTATION = 'quotation';
 
