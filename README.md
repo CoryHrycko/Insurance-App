@@ -2,13 +2,14 @@
 
 ## Run me
 
-1. docker-compose up -d --build site       
-2. docker-compose exec php php /var/www/html/artisan migrate 
-3. docker-compose exec php php /var/www/html/artisan passport:install
-4. docker-compose run --rm npm run dev  
-5. docker-compose run --rm --service-ports npm run watch 
-6. Navigate to http://localhost/
-7. Enjoy
+1. Make in the root directory a folder called:  `mysql`
+2. docker-compose up -d --build site       
+3. docker-compose exec php php /var/www/html/artisan migrate 
+4. docker-compose exec php php /var/www/html/artisan passport:install
+5. docker-compose run --rm npm run dev  
+6. docker-compose run --rm --service-ports npm run watch 
+7. Navigate to http://localhost/
+8. Enjoy
 
 ## How to enjoy.
 
